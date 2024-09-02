@@ -27,4 +27,5 @@
 			                  &kp SPACE &kp LSHIFT &kp BACKSPACE  &kp RETURN
 			>;
 		};
+  };
 };

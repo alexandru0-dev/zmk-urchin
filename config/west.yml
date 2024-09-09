@@ -3,19 +3,16 @@ manifest:
     # zmk official
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    # bravekarma
-    - name: caksoylar
-      url-base: https://github.com/caksoylar
     # duckyb
     - name: duckyb
       url-base: https://github.com/duckyb
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: 6b4d591c3792c89653e88772f18a3b063fb16d27 # main
       import: app/west.yml
     - name: urchin-zmk-module
       remote: duckyb
-      revision: main
+      revision: 57ef72b1fdd3c59c5ac32d2ad3b13289bc17f358 # main
   self:
     path: config

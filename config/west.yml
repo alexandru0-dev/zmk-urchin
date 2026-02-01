@@ -12,13 +12,13 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: ad6a181d7ec34fb6e31134f6bb991a9b2d0b8f78 # main
+      revision: ac7f75b8591d39aaf3b66b9d26f26c9ed921a009 # main
       import: app/west.yml
     - name: urchin-zmk-module
       remote: duckyb
       revision: a3ab64fa7779f82675695f3d7d17f705f840da25 # main
     - name: zmk-helpers
       remote: urob
-      revision: 4b6f4597fec3c216151dd93ed1f9e9350f275701 # main
+      revision: 859bf060ea7c17f552f8da59fc2677de5e3f5531 # main
   self:
     path: config

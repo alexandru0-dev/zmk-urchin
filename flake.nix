@@ -37,7 +37,7 @@
           board = "nice_nano_v2";
           shield = "urchin_%PART% nice_view_adapter nice_view";
 
-          zephyrDepsHash = "sha256-ZvfJA/D7+2Gkxy83L53O0KQclwZ9V9VyqTMmziJ62os=";
+          zephyrDepsHash = "sha256-mEJ13Nl6hBwL/o8ESeOplUaxdlhORd2vrmgTqCpzA10=";
 
           meta = {
             description = "ZMK firmware";
